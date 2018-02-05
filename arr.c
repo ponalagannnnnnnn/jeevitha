@@ -15,3 +15,6 @@ if(mini<array[i])
 mini=array[i]);
 }
 printf("\n the largest number in the array=%d",mini);
+getch();
+  
+}
