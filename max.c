@@ -1,7 +1,7 @@
 #include<stdio.h>
 void main()
 {
-int array[100],maximum,size,c,location=1;
+int arr[100],max,size,c,location=1;
 printf("\n enter the elements in a array\n");
 scanf("%d",&size);
 printf("\n enter the %d integers\n",size);
