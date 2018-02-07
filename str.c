@@ -18,11 +18,11 @@ count=2;
 }
 if (count==1)
 {
-printf("\n it contains both alphabet and numbers");
+printf("\n yes");
 }
 else
 {
-printf("\n it does not contains both alphabet and numbers");
+printf("\n no");
 }
 getch();
 }
