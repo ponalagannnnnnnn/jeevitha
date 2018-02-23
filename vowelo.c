@@ -1,5 +1,5 @@
 #include<stdio.h>
-void main()
+int main()
 {
 char a,lower case,upper case,c; 
 printf("\n enter the string");
@@ -15,5 +15,5 @@ else
 {
 printf("\n No");
 }
-getch();
+return 0;
 }
