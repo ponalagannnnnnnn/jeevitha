@@ -1,5 +1,5 @@
 #include<stdio.h>
-void main()
+int main()
 {
 int n,i,sum=0,num;
 printf("\n Enter the value of n");
@@ -15,5 +15,5 @@ for(i=0;i<n;i++)
 sum=sum+num[i];
 }
 printf("\n the sum of the number is:%d",sum);
-getch();
+return 0;
 }
