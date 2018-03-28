@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include<string.h>
-int main(void) {
+void main()
+{
 	char str[10];
 	int i,j,len,temp;
 	printf("\n enter the string");
@@ -13,5 +14,5 @@ int main(void) {
 		str[j]=temp;
 	}
 	printf("\n%s",str);
-	return 0;
+	getch();
 }
