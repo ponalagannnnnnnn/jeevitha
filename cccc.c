@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main() 
+void main() 
 {
 int n,i,res,a[20],t=0;
 char rom[10];
@@ -35,5 +35,5 @@ if(a[i]<a[i+1])
 t=res+t;
 }
 printf("\n%d",t);
-return 0;
+getch();
 }
